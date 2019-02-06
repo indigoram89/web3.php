@@ -37,7 +37,7 @@ class UnlockAccount extends EthMethod
      * @var array
      */
     protected $inputFormatters = [
-        AddressFormatter::class, StringFormatter::class, NumberFormatter::class
+        AddressFormatter::class, StringFormatter::class, HexFormatter::class
     ];
 
     /**
