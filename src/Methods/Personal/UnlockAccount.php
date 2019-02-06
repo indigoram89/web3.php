@@ -11,14 +11,15 @@
 
 namespace Web3\Methods\Personal;
 
-use InvalidArgumentException;
 use Web3\Methods\EthMethod;
-use Web3\Validators\AddressValidator;
-use Web3\Validators\StringValidator;
-use Web3\Validators\QuantityValidator;
-use Web3\Formatters\AddressFormatter;
-use Web3\Formatters\StringFormatter;
+use InvalidArgumentException;
+use Web3\Formatters\HexFormatter;
 use Web3\Formatters\NumberFormatter;
+use Web3\Formatters\StringFormatter;
+use Web3\Validators\StringValidator;
+use Web3\Formatters\AddressFormatter;
+use Web3\Validators\AddressValidator;
+use Web3\Validators\QuantityValidator;
 
 class UnlockAccount extends EthMethod
 {
